@@ -1,6 +1,5 @@
 # poker_hands
 
-TODO: Write a description here
 
 ## Installation
 
@@ -10,7 +9,7 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   poker_hands:
-    github: [your-github-name]/poker_hands
+    github: mimosa/poker_hands
 ```
 
 
@@ -19,23 +18,17 @@ dependencies:
 
 ```crystal
 require "poker_hands"
+
+PokerHands.vs("2H 3D 5S 9C KD", "2C 3H 4S 8C KH")
 ```
-
-
-TODO: Write usage instructions here
 
 ## Development
 
-TODO: Write development instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[your-github-name]/poker_hands/fork )
-2. Create your feature branch (git checkout -b my-new-feature)
-3. Commit your changes (git commit -am 'Add some feature')
-4. Push to the branch (git push origin my-new-feature)
-5. Create a new Pull Request
+To run tests:
+```
+make test
+```
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) Howl王 - creator, maintainer
+- [mimosa](https://github.com/mimosa) Howl王 - creator, maintainer
